@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NikeBoss VPN - Оплата</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-placeholder">N</div>
+            <h1>NikeBoss VPN</h1>
+            <p>Быстрый и безопасный доступ</p>
+        </header>
+        <main class="payment-card">
+            <h2>Оплата подписки</h2>
+            <p class="price">100 ₽ <span>/ месяц</span></p>
+            <p class="instruction">Нажми на кнопку ниже, чтобы перейти к безопасной оплате через Т-Банк.</p>
+            <a href="https://www.tbank-online.com/rm/r_CySuTOeCFa.znLBPjhjqL/TWOGh90440" target="_blank" class="btn-pay" id="pay-button">Оплатить 100 ₽</a>
+            <button class="btn-check" onclick="sendPaymentToBot()">Я оплатил(а)</button>
+        </main>
+        <footer><p>© 2026 NikeBoss Ecosystem</p></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
